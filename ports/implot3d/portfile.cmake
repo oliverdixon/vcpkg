@@ -3,8 +3,8 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO oliverdixon/implot3d
-    REF "bc1bf9b39f0cf91d0b6d49507ff50c15aa0ad4aa"
-    SHA512 5a3c1c594d162a83bd8704061c583c57750623b01c72231d34895e19358e4fcb11cdbdf637358e5e76b7570310d33dff87bf7e57aa4d4ae8822de493264370fb
+    REF "47501aad2296a60698fa055b7ba74f27ecb6d400"
+    SHA512 f1b52dc2e9d5c5ce981e0b6393a09735590bcec0c1892ef31a5d3e8f56bcd8b5df74cbf4fd897255173e57b5752f50a1fc845025f09717256ee4bb8d91d76b5c
     HEAD_REF add-custom-getter-support
 )
 
