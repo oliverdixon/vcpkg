@@ -2,10 +2,10 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO brenocq/implot3d
-    REF "v${VERSION}"
-    SHA512 288e8c837e8d5c3d70ba4d95e5d100ac2b701b53428321c84cc40e797de55e71a53677455129400d04c346bb5fc188349b45f7d26789ba0cc4c99e5aa4a235f0
-    HEAD_REF master
+    REPO oliverdixon/implot3d
+    REF "bc1bf9b39f0cf91d0b6d49507ff50c15aa0ad4aa"
+    SHA512 5a3c1c594d162a83bd8704061c583c57750623b01c72231d34895e19358e4fcb11cdbdf637358e5e76b7570310d33dff87bf7e57aa4d4ae8822de493264370fb
+    HEAD_REF add-custom-getter-support
 )
 
 file(COPY "${CMAKE_CURRENT_LIST_DIR}/CMakeLists.txt" DESTINATION "${SOURCE_PATH}")

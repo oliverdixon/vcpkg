@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "git-tree": "d0d99ce2a3ebd329d97790746971b116d40f43c8",
+      "version": "0.4-oliverdixon",
+      "port-version": 0
+    },
+    {
       "git-tree": "9ea5795c860a4bb00e179b8bcc928f2d1d692d28",
       "version": "0.4",
       "port-version": 0

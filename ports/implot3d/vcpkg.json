@@ -1,8 +1,8 @@
 {
   "name": "implot3d",
-  "version": "0.4",
+  "version": "0.4-oliverdixon",
   "description": "Immediate Mode 3D Plotting",
-  "homepage": "https://github.com/brenocq/implot3d",
+  "homepage": "https://github.com/oliverdixon/implot3d",
   "license": "MIT",
   "dependencies": [
     "imgui",
