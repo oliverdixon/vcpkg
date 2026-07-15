@@ -23,9 +23,6 @@ if(VCPKG_TARGET_IS_EMSCRIPTEN AND SIMDJSON_ENABLE_THREADS)
     list(APPEND EMSCRIPTEN_THREAD_OPTIONS
             "-DCMAKE_C_FLAGS:STRING=-pthread"
             "-DCMAKE_CXX_FLAGS:STRING=-pthread"
-            "-DCMAKE_EXE_LINKER_FLAGS:STRING=-pthread"
-            "-DCMAKE_SHARED_LINKER_FLAGS:STRING=-pthread"
-            "-DCMAKE_MODULE_LINKER_FLAGS:STRING=-pthread"
     )
 endif()
 
