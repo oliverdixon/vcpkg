@@ -1,3 +1,10 @@
+# OWD's Changes
+
+* Use my fork of implot3d.
+* Use pre-released upstream version of implot.
+* Optionally build simdjson and libsigcpp with pthreads support.
+* Use my fork of doctest.
+
 <!-- 
 This document is a copy of the README file on the Microsoft/vcpkg-docs repository.
 
