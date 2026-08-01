@@ -2609,7 +2609,7 @@
       "port-version": 0
     },
     "doctest": {
-      "baseline": "2.5.3",
+      "baseline": "2.5.3-oliverdixon",
       "port-version": 0
     },
     "double-conversion": {
